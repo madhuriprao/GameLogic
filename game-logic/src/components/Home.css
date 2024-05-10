@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    grid-gap: 10px; /* Gap between grid items */
+  }
+  
+  .box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Default background color */
+    color: white; /* Text color */
+  }
